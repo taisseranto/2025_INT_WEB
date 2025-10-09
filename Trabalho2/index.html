@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lumine - Cosméticos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-black" href="#">Lumine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#apresentação">Apresentação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" ><i class="bi bi-cart"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"><i class="bi bi-heart-fill"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL: IMAGENS DE APRESENTAÇÃO -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Logo - Lumine.png" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Foto apresentação - Lumine.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Produtos - Lumine.png" class="d-block w-100" alt="Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- TEXTO: APRESENTAÇÃO -->
+    <section id="apresentação" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Apresentação</h2>
+                    <p>A <strong>Lumine</strong> nasceu com a missão de realçar a beleza feminina através de cosméticos
+                        de qualidade,
+                        cruelty-free e com ingredientes naturais. Nossa linha de produtos é desenvolvida pensando em
+                        diferentes estilos e necessidades,
+                        sempre com amor e cuidado.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="Fachada - Lumine.png" class="img-fluid rounded" alt="Sobre nós">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Produtos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Ácido Mandélico - Lumine.png" class="card-img-top" alt="Produto 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ácido Mandélico</h5>
+                            <p class="card-text">Reduz a Oleosidade, Combate a Formação de Acne, Uniformiza o Tom da Pele.</p>
+                            <p class="card-text"><i class="bi bi-heart"></i> <i class="bi bi-cart2"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Sérum Vitamina C - Lumine.png" class="card-img-top" alt="Produto 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sérum Vitamina C</h5>
+                            <p class="card-text">Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas.</p>
+                            <p class="card-text"><i class="bi bi-heart"></i> <i class="bi bi-cart2"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Espuma Facial - Lumine.png" class="card-img-top" alt="Produto 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Espuma Facial</h5>
+                            <p class="card-text">Limpa profundamente sem ressecar. Controla a oleosidade por até 4h.</p>
+                            <p class="card-text"><i class="bi bi-heart"></i> <i class="bi bi-cart2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMAGENS: EQUIPE -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossa Equipe</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Fundadora - Lumine.png" class="card-img-top" alt="Membro 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Maitê Valente</h5>
+                            <p class="card-text">Fundadora & Especialista em Cosméticos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Dermatologista - Lumine.png" class="card-img-top" alt="Membro 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Samara Bragança</h5>
+                            <p class="card-text">Dermatologista Consultora</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="Marketing - Lumine.jpg" class="card-img-top" alt="Membro 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mariana Alves</h5>
+                            <p class="card-text">Marketing & Comunicação</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENSAGENS -->
+    <section id="depoimentos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Depoimentos</h2>
+            <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote">
+                            <p>"Os produtos da Lumine mudaram minha rotina de beleza, amei a qualidade!"</p>
+                            <footer class="blockquote-footer">Larissa Lira</footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p>"Finalmente encontrei cosméticos que cuidam da minha pele de verdade."</p>
+                            <footer class="blockquote-footer">Samara Sato</footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p>"Adoro a proposta natural e cruelty-free. Super recomendo!"</p>
+                            <footer class="blockquote-footer">Taís Seranto</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  .btn-pink {
+    background-color: #4d494b;
+    border: none;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .btn-pink:hover {
+    background-color: #f7c9e2;
+    color: rgb(0, 0, 0);
+  }
+</style>
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body p-4">
+          <h2 class="text-center mb-4">Entre em Contato</h2>
+
+          <form action="https://formspree.io/f/mnngvzaa" method="POST">
+            
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Telefone (opcional)</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Assunto</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Digite o assunto">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-pink btn-lg">Enviar</button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer id="contato" class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>Siga-nos nas redes sociais:</p>
+            <p><i class="bi bi-tiktok"></i></p>
+            <p><i class="bi bi-instagram"></i></p>
+            <p><i class="bi bi-facebook"></i></p>
+            <p class="mt-3 mb-0">&copy; 2025 Lumine - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
